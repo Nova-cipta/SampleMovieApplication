@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_data">Empty Data</string>
+    <string name="something_wrong">An error occurred. Please Try Again Later</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_genres">Genres</string>
+    <string name="movie_overview">Overiview</string>
+    <string name="popularity">Popularity</string>
+    <string name="vote">Vote</string>
+    <string name="release_date">Release Date: </string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_favorites">Module Title</string>
+</resources>

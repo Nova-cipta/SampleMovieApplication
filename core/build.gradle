@@ -38,10 +38,6 @@ android {
         viewBinding = true
     }
 
-    lintOptions{
-        abortOnError false
-    }
-
 }
 
 dependencies {

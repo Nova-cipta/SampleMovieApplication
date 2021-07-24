@@ -1,4 +1,4 @@
-package com.madesubs.favorite.di
+package com.madesubs.favorites.di
 
 import com.madesubs.favorites.FavoriteViewModel
 import org.koin.android.viewmodel.dsl.viewModel

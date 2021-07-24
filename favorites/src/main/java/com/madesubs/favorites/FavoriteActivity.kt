@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.madesubs.core.ui.MovieAdapter
-import com.madesubs.favorite.di.favoriteModule
+import com.madesubs.favorites.di.favoriteModule
 import com.madesubs.favorites.databinding.ActivityFavoriteBinding
 import com.madesubs.myapplication.detail.DetailActivity
 import org.koin.android.viewmodel.ext.android.viewModel

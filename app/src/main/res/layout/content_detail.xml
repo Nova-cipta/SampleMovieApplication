@@ -15,7 +15,8 @@
         android:background="@drawable/layout_shape"
         android:elevation="3dp"
         android:orientation="vertical"
-        android:padding="8dp">
+        android:padding="8dp"
+        tools:ignore="UnusedAttribute">
 
         <TextView
             android:id="@+id/label_overview"

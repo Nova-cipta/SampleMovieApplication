@@ -29,6 +29,9 @@ buildscript {
 
     ext.leakcanary_version = "2.4"
 
+    ext.sqlcipher_version = "4.4.0"
+    ext.sqlite_version = "2.1.0"
+
     repositories {
         google()
         jcenter()

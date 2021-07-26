@@ -9,10 +9,8 @@
     <string name="something_wrong">An error occurred. Please Try Again Later</string>
     <string name="title_activity_detail">DetailActivity</string>
 
-    <string name="movie_title">Movie Title</string>
     <string name="movie_overview">Overiview</string>
     <string name="popularity">Popularity</string>
     <string name="vote">Vote</string>
     <string name="release_date">Release Date: </string>
-    <string name="title_favorites">Module Title</string>
 </resources>

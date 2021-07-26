@@ -13,4 +13,5 @@
     <string name="popularity">Popularity</string>
     <string name="vote">Vote</string>
     <string name="release_date">Release Date: </string>
+    <string name="title_favorites">Favorite Movies</string>
 </resources>

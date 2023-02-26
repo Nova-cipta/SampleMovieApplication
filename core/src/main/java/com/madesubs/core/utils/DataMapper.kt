@@ -23,6 +23,24 @@ object DataMapper {
         }
         return movieList
     }
+    fun mapResponseToDomain(input: List<MovieResponse>): List<Movie> {
+        val movieList = ArrayList<Movie>()
+        input.map {
+            val movie = Movie(
+                id = it.id,
+                title = it.title,
+                popularity = it.popularity,
+                overview = it.overview,
+                releaseDate = it.releaseDate,
+                voteAverage = it.voteAverage,
+                backdropPath = it.backdropPath,
+                posterPath = it.posterPath,
+                isFavorite = false
+            )
+            movieList.add(movie)
+        }
+        return movieList
+    }
 
     fun mapEntitiesToDomain(input: List<MovieEntity>): List<Movie> =
         input.map {

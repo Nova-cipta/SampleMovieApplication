@@ -5,5 +5,5 @@ import androidx.lifecycle.asLiveData
 import com.madesubs.core.domain.usecase.MovieUseCase
 
 class HomeViewModel(useCase: MovieUseCase) : ViewModel() {
-    val movie = useCase.getAllMovie().asLiveData()
+    val movie = useCase.getTrendingMovie().asLiveData()
 }

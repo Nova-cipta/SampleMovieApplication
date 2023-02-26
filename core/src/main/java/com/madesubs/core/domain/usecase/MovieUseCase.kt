@@ -5,6 +5,8 @@ import com.madesubs.core.domain.model.Movie
 import kotlinx.coroutines.flow.Flow
 
 interface MovieUseCase {
+    fun getTrendingMovie(): Flow<Resource<List<Movie>>>
+
     fun getAllMovie(): Flow<Resource<List<Movie>>>
 
     fun getFavoriteMovie(): Flow<List<Movie>>
